@@ -1,3 +1,10 @@
+linux-meta (2.6.30.2.1) robby; urgency=low
+
+  * Disabled meta-package dependencies on 'restricted' and 'backports'
+    modules
+
+ -- Adam McDaniel <adam@jolicloud.org>  Wed, 22 Jul 2009 22:20:40 -0600
+
 linux-meta (2.6.28.14.17jolicloud2) robby; urgency=low
 
   * Added dependency to include linux-backports-modules-jaunty-jolicloud
