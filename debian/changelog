@@ -1,3 +1,10 @@
+linux-meta (2.6.30.2.2) robby; urgency=low
+
+  * Set release name to "robby"
+  * Fixed jolicloud-atom dependency references
+
+ -- Adam McDaniel <adam@jolicloud.org>  Thu, 23 Jul 2009 09:38:59 -0600
+
 linux-meta (2.6.30.2.1) robby; urgency=low
 
   * Disabled meta-package dependencies on 'restricted' and 'backports'
