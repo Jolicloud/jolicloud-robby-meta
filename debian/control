@@ -42,11 +42,11 @@ Vcs-Git: http://git.jolicloud.org/jolicloud/kernel/jolicloud-robby-meta.git
 # This package will always depend on the latest generic Linux restricted
 # modules available.
 #
-#Package: linux-backports-modules-jaunty
+#Package: linux-backports-modules-robby
 #Architecture: i386 amd64 lpia
 #Section: metapackages
 #Priority: optional
-#Depends: linux-backports-modules-jaunty-${generic-depends} (= ${binary:Version})
+#Depends: linux-backports-modules-robby-${generic-depends} (= ${binary:Version})
 #Description: Generic Linux backported drivers.
 # This package will always depend on the latest generic Linux backported
 # drivers available.
@@ -103,12 +103,12 @@ Package: linux-jolicloud
 Architecture: i386
 Section: restricted/metapackages
 Priority: optional
-Depends: linux-image-jolicloud (= ${binary:Version}), linux-restricted-modules-jolicloud (= ${binary:Version}), linux-backports-modules-jaunty-jolicloud (= ${binary:Version})
+Depends: linux-image-jolicloud (= ${binary:Version}), linux-restricted-modules-jolicloud (= ${binary:Version}), linux-backports-modules-robby-jolicloud (= ${binary:Version})
 Description: Complete jolicloud Linux kernel
  This package will always depend on the latest complete jolicloud Linux kernel
  available.
 
-Package: linux-backports-modules-jaunty-jolicloud
+Package: linux-backports-modules-robby-jolicloud
 Architecture: i386
 #Depends: linux-backports-modules-${kernel-abi-version}-jolicloud
 Description: Backported drivers for jolicloud kernel image
@@ -146,12 +146,12 @@ Package: linux-jolicloud-atom
 Architecture: i386
 Section: restricted/metapackages
 Priority: optional
-Depends: linux-image-jolicloud (= ${binary:Version}), linux-restricted-modules-jolicloud (= ${binary:Version}), linux-backports-modules-jaunty-jolicloud (= ${binary:Version})
+Depends: linux-image-jolicloud (= ${binary:Version}), linux-restricted-modules-jolicloud (= ${binary:Version}), linux-backports-modules-robby-jolicloud (= ${binary:Version})
 Description: Complete jolicloud Linux kernel
  This package will always depend on the latest complete jolicloud Linux kernel
  available.
 
-Package: linux-backports-modules-jaunty-jolicloud-atom
+Package: linux-backports-modules-robby-jolicloud-atom
 Architecture: i386
 #Depends: linux-backports-modules-${kernel-abi-version}-jolicloud
 Description: Backported drivers for jolicloud kernel image
