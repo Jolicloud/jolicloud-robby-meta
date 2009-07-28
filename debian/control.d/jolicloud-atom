@@ -3,6 +3,7 @@ Architecture: i386
 Section: devel
 Priority: optional
 Depends: linux-headers-${kernel-abi-version}-jolicloud-atom
+Provides: linux-headers-jolicloud
 Description: jolicloud Linux kernel headers
  This package will always depend on the latest jolicloud kernel headers
  available.
@@ -12,6 +13,7 @@ Architecture: i386
 Section: metapackages
 Priority: optional
 Depends: linux-image-${kernel-abi-version}-jolicloud-atom, linux-firmware
+Provides: linux-image-jolicloud
 Description: jolicloud Atom Linux kernel image
  This package will always depend on the latest jolicloud Atom kernel image
  available.
@@ -21,6 +23,7 @@ Architecture: i386
 Section: restricted/metapackages
 Priority: optional
 #Depends: linux-restricted-modules-${kernel-abi-version}-jolicloud-atom
+Provides: linux-restricted-modules-jolicloud
 Description: Restricted Linux modules for jolicloud kernels
  This package will always depend on the latest restricted modules available
  for jolicloud kernels.
@@ -30,6 +33,7 @@ Architecture: i386
 Section: restricted/metapackages
 Priority: optional
 Depends: linux-image-jolicloud-atom (= ${binary:Version}), linux-restricted-modules-jolicloud-atom (= ${binary:Version}), linux-backports-modules-RELEASE_NAME-jolicloud-atom (= ${binary:Version})
+Provides: linux-jolicloud
 Description: Complete jolicloud Linux kernel
  This package will always depend on the latest complete jolicloud Linux kernel
  available.
@@ -37,6 +41,7 @@ Description: Complete jolicloud Linux kernel
 Package: linux-backports-modules-RELEASE_NAME-jolicloud-atom
 Architecture: i386
 #Depends: linux-backports-modules-${kernel-abi-version}-jolicloud-atom
+Provides: linux-backports-modules-RELEASE_NAME-jolicloud
 Description: Backported drivers for jolicloud kernel image
  This empty package allows people to keep their backported modules
  up-to-date when upgrading their Linux kernel.
