@@ -1,3 +1,9 @@
+linux-meta (2.6.30.2.3) robby; urgency=low
+
+  * Added rule for "linux.*-jolicloud-atom" to provide "linux.*-jolicloud"
+
+ -- Adam McDaniel <adam@jolicloud.org>  Mon, 03 Aug 2009 16:33:44 -0600
+
 linux-meta (2.6.30.2.2) robby; urgency=low
 
   * Set release name to "robby"
