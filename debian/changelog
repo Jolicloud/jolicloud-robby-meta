@@ -1,3 +1,9 @@
+linux-meta (2.6.30.4.4) robby; urgency=low
+
+  * ABI Bump
+
+ -- Adam McDaniel <adam@jolicloud.org>  Sat, 08 Aug 2009 13:25:37 -0600
+
 linux-meta (2.6.30.2.3) robby; urgency=low
 
   * Added rule for "linux.*-jolicloud-atom" to provide "linux.*-jolicloud"
