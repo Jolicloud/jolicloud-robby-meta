@@ -1,3 +1,9 @@
+linux-meta (2.6.31.4.1) robby; urgency=low
+
+  * New release, 2.6.31-4, ABI Bump
+
+ -- Adam McDaniel <adam@jolicloud.org>  Sun, 13 Sep 2009 18:05:28 +0200
+
 linux-meta (2.6.31.3.2) robby; urgency=low
 
   * Add "Provides" rules to the jolicloud flavours to their generic
