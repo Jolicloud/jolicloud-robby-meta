@@ -1,6 +1,7 @@
-linux-meta (2.6.31.4.1) robby; urgency=low
+linux-meta (2.6.31.4.3) robby; urgency=low
 
   * New release, 2.6.31-4, ABI Bump
+  * Adjusted version for this release (should end in 4.3, not 4.1)
 
  -- Adam McDaniel <adam@jolicloud.org>  Sun, 13 Sep 2009 18:05:28 +0200
 
