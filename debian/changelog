@@ -1,3 +1,9 @@
+linux-meta (2.6.32.9.1.1) robby; urgency=low
+
+  * New release, 2.6.32.9-1, ABI Bump
+
+ -- Adam McDaniel <adam@jolicloud.org>  Fri, 05 Mar 2010 01:15:19 -0700
+
 linux-meta (2.6.32.8.1.1) robby-dev; urgency=low
 
   * Support 4th-level Kernel version numbers
