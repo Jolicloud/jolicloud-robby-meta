@@ -1,3 +1,9 @@
+linux-meta (2.6.32.11.1.1) robby; urgency=low
+
+  * New release, 2.6.32.11-1, ABI Bump
+
+ -- Adam McDaniel <adam@jolicloud.org>  Tue, 13 Apr 2010 13:53:11 -0600
+
 linux-meta (2.6.32.9.1.1) robby; urgency=low
 
   * New release, 2.6.32.9-1, ABI Bump
