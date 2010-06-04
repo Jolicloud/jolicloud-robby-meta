@@ -10,8 +10,8 @@
 RELEASE_NAME=robby
 
 KERNEL_VERSION=$(shell dpkg-parsechangelog | grep ^Version | sed -e \
-	's/Version: \([0-9]*\.[0-9]*\.[0-9]*.[0-9]*\)\..*/\1/')
-KERNEL_ABI=$(shell head -n1 < debian/changelog | gawk '{n=split($$0,v,"."); print v[5];}')
+	's/Version: \([0-9]*\.[0-9]*\.[0-9]*\)\..*/\1/')
+KERNEL_ABI=$(shell head -n1 < debian/changelog | gawk '{n=split($$0,v,"."); print v[4];}')
 KERNEL_ABI_VERSION=$(KERNEL_VERSION)-$(KERNEL_ABI)
 
 GENERIC_i386=generic
