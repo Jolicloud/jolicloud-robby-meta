@@ -1,3 +1,10 @@
+linux-meta (2.6.34.1.1.1) robby; urgency=low
+
+  * Created metapackage for linux-libc-dev to linux-libc-PKGVER-ABINUM-dev
+  * New release, 2.6.34.1-1, ABI Bump
+
+ -- Adam McDaniel <adam@jolicloud.org>  Tue, 10 Aug 2010 18:00:48 -0600
+
 linux-meta (2.6.32.11.1.1) robby; urgency=low
 
   * New release, 2.6.32.11-1, ABI Bump
