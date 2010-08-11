@@ -1,3 +1,10 @@
+linux-meta (2.6.34.1.1.2) robby; urgency=low
+
+  * Do not set linux-libc-${kernel-abi-version}-dev on this meta-package version
+  * Restore "Support 4th-level Kernel version numbers"
+
+ -- Adam McDaniel <adam@jolicloud.org>  Tue, 10 Aug 2010 19:13:52 -0600
+
 linux-meta (2.6.34.1.1.1) robby; urgency=low
 
   * Created metapackage for linux-libc-dev to linux-libc-PKGVER-ABINUM-dev
