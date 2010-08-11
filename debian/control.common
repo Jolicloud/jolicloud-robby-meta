@@ -10,7 +10,7 @@ Package: linux-libc-dev
 Architecture: i386 amd64 lpia
 Section: devel
 Priority: optional
-Depends: linux-libc-${kernel-abi-version}-dev (= ${binary:Version})
+Depends: linux-libc-${kernel-abi-version}-dev
 Description: Linux Kernel Headers for development
  This package will always depend on the latest Linux kernel headers
  available for GNU glibc and other system libraries.
