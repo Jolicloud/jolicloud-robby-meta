@@ -6,6 +6,15 @@ Standards-Version: 3.6.1
 Build-Depends: dpkg (>= 1.13.19), debhelper (>= 3), gawk
 Vcs-Git: http://git.jolicloud.org/jolicloud/kernel/jolicloud-robby-meta.git
 
+Package: linux-libc-dev
+Architecture: i386 amd64 lpia
+Section: devel
+Priority: optional
+Depends: linux-libc-${kernel-abi-version}-dev (= ${binary:Version})
+Description: Linux Kernel Headers for development
+ This package will always depend on the latest Linux kernel headers
+ available for GNU glibc and other system libraries.
+
 #Package: linux
 #Architecture: i386 amd64 lpia
 #Section: restricted/metapackages
