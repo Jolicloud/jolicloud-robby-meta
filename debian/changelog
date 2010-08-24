@@ -1,3 +1,9 @@
+linux-meta (2.6.34.5.1.3) robby; urgency=low
+
+  * New release, 2.6.34.5-1, ABI Bump
+
+ -- Adam McDaniel <adam@jolicloud.org>  Tue, 24 Aug 2010 11:09:18 -0600
+
 linux-meta (2.6.34.1.1.2) robby; urgency=low
 
   * Do not set linux-libc-${kernel-abi-version}-dev on this meta-package version
