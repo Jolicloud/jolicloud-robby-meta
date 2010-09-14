@@ -1,3 +1,12 @@
+linux-meta (2.6.35.4.1.6) robby-lucid; urgency=low
+
+  * Revert "Do not set linux-libc-${kernel-abi-version}-dev on this
+    meta-package version"
+  * Revert "Created metapackage for linux-libc-dev to linux-libc-PKGVER-
+    ABINUM-dev"
+
+ -- Adam McDaniel <adam@jolicloud.org>  Tue, 14 Sep 2010 12:24:25 -0600
+
 linux-meta (2.6.35.4.1.5) robby-lucid; urgency=low
 
   * New release, 2.6.35.4-1, ABI Bump
