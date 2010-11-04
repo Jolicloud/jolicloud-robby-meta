@@ -1,3 +1,9 @@
+linux-meta (2.6.35.8.1.7) robby-lucid; urgency=low
+
+  * New release, 2.6.35.8-1, ABI Bump
+
+ -- Adam McDaniel <adam@jolicloud.org>  Thu, 04 Nov 2010 11:37:21 -0600
+
 linux-meta (2.6.35.4.1.6) robby-lucid; urgency=low
 
   * Revert "Do not set linux-libc-${kernel-abi-version}-dev on this
