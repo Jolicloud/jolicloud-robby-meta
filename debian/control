@@ -76,7 +76,7 @@ Package: linux-headers-jolicloud
 Architecture: i386
 Section: devel
 Priority: optional
-Depends: linux-headers-${kernel-abi-version}-jolicloud
+Depends: linux-headers-generic-lts-backport-maverick
 Provides: linux-headers-generic
 Description: jolicloud Linux kernel headers
  This package will always depend on the latest jolicloud kernel headers
@@ -86,7 +86,7 @@ Package: linux-image-jolicloud
 Architecture: i386
 Section: metapackages
 Priority: optional
-Depends: linux-image-${kernel-abi-version}-jolicloud, linux-firmware
+Depends: linux-image-generic-lts-backport-maverick, linux-firmware
 Provides: linux-image-generic
 Description: jolicloud Linux kernel image
  This package will always depend on the latest jolicloud kernel image
@@ -124,7 +124,7 @@ Package: linux-headers-jolicloud-atom
 Architecture: i386
 Section: devel
 Priority: optional
-Depends: linux-headers-${kernel-abi-version}-jolicloud-atom
+Depends: linux-headers-generic-lts-backport-maverick
 Provides: linux-headers-generic, linux-headers-jolicloud
 Description: jolicloud Linux kernel headers
  This package will always depend on the latest jolicloud kernel headers
@@ -134,7 +134,7 @@ Package: linux-image-jolicloud-atom
 Architecture: i386
 Section: metapackages
 Priority: optional
-Depends: linux-image-${kernel-abi-version}-jolicloud-atom, linux-firmware
+Depends: linux-image-generic-lts-backport-maverick, linux-firmware
 Provides: linux-image-generic, linux-image-jolicloud
 Description: jolicloud Atom Linux kernel image
  This package will always depend on the latest jolicloud Atom kernel image
