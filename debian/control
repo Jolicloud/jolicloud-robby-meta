@@ -4,7 +4,8 @@ Priority: optional
 Maintainer: Adam McDaniel <adam@jolicloud.org>
 Standards-Version: 3.6.1
 Build-Depends: dpkg (>= 1.13.19), debhelper (>= 3), gawk
-Vcs-Git: http://git.jolicloud.org/jolicloud/kernel/jolicloud-robby-meta.git
+Vcs-Git: git://github.com/jolicloud/jolicloud-robby-meta.git
+Vcs-Browser: https://github.com/jolicloud/jolicloud-robby-meta
 
 #Package: linux
 #Architecture: i386 amd64 lpia
